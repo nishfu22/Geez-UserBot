@@ -1,6 +1,6 @@
 {
-  "name": "⚡𝗚𝗲𝗲𝘇 𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡",
-  "description": "🚫Geez-UserBot🚫 USERBOT KHUSUS YANG DIGUNAKAN UNTUK BERSENANG-SENANG DI TELEGRAM.",
+  "name": "🌀NF-UserBot🌀",
+  "description": "🌀NF-UserBot🌀 USERBOT KHUSUS YANG DIGUNAKAN UNTUK GABOET.",
   "logo": "",
   "keywords": [
     "telegram",
@@ -9,9 +9,9 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/Vckyou/Geez-UserBot",
-  "telegram": "https://t.me/VckyouuBitch",
-  "success_url": "https://t.me/CariTemanRandom",
+  "repository": "https://github.com/nishfu22/NF-UserBot",
+  "telegram": "https://t.me/pachemild",
+  "success_url": "https://t.me/HappyZgameBot",
   "stack": "container",
   "env": {
     "API_KEY": {
