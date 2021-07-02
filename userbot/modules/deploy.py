@@ -46,7 +46,7 @@ async def _(event):
         "INFO - Geez-Project: Logged in as 557667062",
         "INFO - Geez-Project: Successfully...",
         "919852+00:00 app[worker.1]: 919 - Geez-Project -",
-        "INFO - ⚡ Geez-Project⚡ ⚙️ V5.0 [TELAH DIAKTIFKAN!]",
+        "INFO - 🌀 NF-UserBot 🌀 ⚙️ V5.0 [TELAH DIAKTIFKAN!]",
         "**Build Succeeded**"
 
     ]
