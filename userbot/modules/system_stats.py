@@ -228,7 +228,7 @@ async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
-        f"\n__**{GEEZ_TEKS_KUSTOM}**__\n"
+        f"\n__**🌀 NF - USERBOT 🌀**__\n"
         f"**╭───────────────────**\n"
         f"**├[• 🤴 NF-UserBot Owner** \n"
         f"├[•   : `{DEFAULTUSER}` \n"
