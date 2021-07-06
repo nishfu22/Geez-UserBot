@@ -383,8 +383,8 @@ def paginate_help(page_number, loaded_modules, prefix):
     helpable_modules = sorted(helpable_modules)
     modules = [
         custom.Button.inline(
-            "{} {} 🔰".format(
-                "🔰", x), data="ub_modul_{}".format(x))
+            "{} {} 🌀".format(
+                "🌀", x), data="ub_modul_{}".format(x))
         for x in helpable_modules
     ]
     pairs = list(zip(modules[::number_of_cols],
@@ -447,7 +447,7 @@ with bot:
                     "`You cannot send inline results in this chat (caused by SendInlineBotResultRequest)`"
                 )
 
-        geezlogo = INLINE_PIC
+        NF-Logo = INLINE_PIC
         plugins = CMD_HELP
         vr = BOT_VER
 
@@ -488,7 +488,7 @@ with bot:
                     "@Geez-Project"):
                 buttons = paginate_help(0, dugmeler, "helpme")
                 result = builder.photo(
-                    file=geezlogo,
+                    file=NF-logo,
                     link_preview=False,
                     text=f"🌀NF-UserBot🌀\n\n🌀**Owner : {DEFAULTUSER}**\n\n🌀 **Bot Ver :** `5.0`\n🌀 **𝗠odules :** `{len(plugins)}`\n\n🌀 **Dev : NISHFU IM **".format(
                         len(dugmeler),
@@ -543,8 +543,8 @@ with bot:
             if event.query.user_id == uid:  # @Geez-Project
                 # https://t.me/TelethonChat/115200
                 await event.edit(
-                    file=geezlogo,
-                    link_preview=True,
+                    file=NF-Logo,
+                    link_preview=false,
                     buttons=[
                         [
                             Button.url("📢 Channel Support",
