@@ -447,7 +447,7 @@ with bot:
                     "`You cannot send inline results in this chat (caused by SendInlineBotResultRequest)`"
                 )
 
-        NF-Logo = INLINE_PIC
+        geezlogo = INLINE_PIC
         plugins = CMD_HELP
         vr = BOT_VER
 
@@ -488,7 +488,7 @@ with bot:
                     "@Geez-Project"):
                 buttons = paginate_help(0, dugmeler, "helpme")
                 result = builder.photo(
-                    file=NF-logo,
+                    file=geezlogo,
                     link_preview=False,
                     text=f"🌀NF-UserBot🌀\n\n🌀**Owner : {DEFAULTUSER}**\n\n🌀 **Bot Ver :** `5.0`\n🌀 **𝗠odules :** `{len(plugins)}`\n\n🌀 **Dev : NISHFU IM **".format(
                         len(dugmeler),
