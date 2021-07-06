@@ -201,11 +201,11 @@ S_PACK_NAME = os.environ.get("S_PACK_NAME", None)
 
 # Default .alive Logo
 ALIVE_LOGO = os.environ.get(
-    "ALIVE_LOGO") or "https://telegra.ph/file/c92925807ed5a1c68ebff.png"
+    "ALIVE_LOGO") or "https://telegra.ph/file/733488ff0ec2c19193b27.jpg"
 
 # Default .helpme Logo
 INLINE_PIC = os.environ.get(
-    "INLINE_PIC") or "https://telegra.ph/file/9e3f0783db33698243b7d.png"
+    "INLINE_PIC") or "https://telegra.ph/file/733488ff0ec2c19193b27.jpg"
 
 # Last.fm Module
 BIO_PREFIX = os.environ.get("BIO_PREFIX", None)
@@ -476,7 +476,7 @@ with bot:
                 ms = (end - start).microseconds / 1000
                 await tgbot.send_message(
                     event.chat_id,
-                    f"**PONG!!**\n `{ms}ms`",
+                    f"**I LOVE YOU 💕!!**\n `{ms}ms`",
                 )
 
         @tgbot.on(events.InlineQuery)  # pylint:disable=E0602
@@ -490,7 +490,7 @@ with bot:
                 result = builder.photo(
                     file=geezlogo,
                     link_preview=False,
-                    text=f"🌀NF-UserBot🌀\n\n🌀**Owner : {DEFAULTUSER}**\n\n🌀 **Bot Ver :** `5.0`\n🌀 **𝗠odules :** `{len(plugins)}`\n\n🌀 **Dev : VCKYOUUU **".format(
+                    text=f"🌀NF-UserBot🌀\n\n🌀**Owner : {DEFAULTUSER}**\n\n🌀 **Bot Ver :** `5.0`\n🌀 **𝗠odules :** `{len(plugins)}`\n\n🌀 **Dev : NISHFU IM **".format(
                         len(dugmeler),
                     ),
                     buttons=buttons,
